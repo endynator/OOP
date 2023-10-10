@@ -4,7 +4,7 @@
 #include "../headers_modules/module1_hw.h"
 
 void module1_hw() {
-	// See the declaration of "Student" at "../headers_modules/module1_hw.h"
+	// See the declaration of "Fraction" at "../headers_modules/module1_hw.h"
 	Fraction fraction(3, 5);
 	Fraction interfierer(6, 7);
 
