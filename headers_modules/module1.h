@@ -6,17 +6,26 @@
 
 class Student {
 private:
-	const char* name = new char;
+	char* name;
 	std::vector<int> marks;
 
-	int getSize(std::vector<int> &arr) {
+	int getSize(std::vector<int>& arr) {
 		int s = 0;
 		for (auto& i : marks) s++;
 		return s;
 	}
+
+	void createName(const char* n) {
+		size_t l = strlen(n);
+		name = new char[l + 1];
+
+		for (size_t i = 0; i < l + 1; i++) name[i] = n[i];
+	}
 public:
-	Student(const char* s)
-		: name(s){}
+	Student(const char* s) { createName(s); }
+	~Student() {
+		delete name;
+	}
 
 	void setMark(int mark);
 

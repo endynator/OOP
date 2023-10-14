@@ -10,14 +10,15 @@ void Student::setMark(int mark) {
 	marks.push_back(mark);
 }
 
-int Student::getMark(int index) {
+inline int Student::getMark(int index) {
 	return marks[index];
 }
 
-void Student::setName(const char* s) {
-	name = s;
+inline void Student::setName(const char* s) {
+	delete[] name;
+	createName(s);
 }
 
-std::string Student::getName() {
+inline std::string Student::getName() {
 	return name;
 }

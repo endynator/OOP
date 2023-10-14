@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\module1_IW.h.obj",
+            "outputs": [
+                "D:\\Projects\\OOP\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "D:\\Projects\\OOP\\x64\\Debug\\module1_IW.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "headers_modules\\module1_IW.h",
+                    "source-path": "d:\\projects\\oop\\headers_modules\\module1_iw.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

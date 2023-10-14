@@ -1,5 +1,5 @@
-#include "headers_modules/module1.h"
-#include "headers_modules/module1_hw.h"
+#include "headers_modules/module1_IW.h"
+#include "headers_modules/module1_hw1.h"
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -9,8 +9,8 @@ using namespace std;
 
 int main() {
 	
-	//module1();
-	module1_hw(); // #include "headers_modules/module1_hw.h"
+	//module1_IW(); // #include "headers_modules/module1_IW.h"
+	//module1_hw1(); // #include "headers_modules/module1_hw.h"
 
 	return 0;
 }

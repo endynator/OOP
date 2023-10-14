@@ -130,14 +130,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="modules\module1_hw.cpp" />
+    <ClCompile Include="headers_modules\module1_IW.h" />
+    <ClCompile Include="modules\module1_hw1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="modules\module1.cpp" />
+    <ClCompile Include="modules\module1_IW.cpp" />
     <ClCompile Include="resourses\Student.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers_modules\module1.h" />
-    <ClInclude Include="headers_modules\module1_hw.h" />
+    <ClInclude Include="headers_modules\module1_hw1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="headers_modules\xyz.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

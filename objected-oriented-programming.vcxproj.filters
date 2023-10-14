@@ -24,7 +24,13 @@
     <ClCompile Include="resourses\Student.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="modules\module1_hw.cpp">
+    <ClCompile Include="modules\module1_hw1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="headers_modules\module1_IW.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module1_IW.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,8 +38,14 @@
     <ClInclude Include="headers_modules\module1.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers_modules\module1_hw.h">
+    <ClInclude Include="headers_modules\module1_hw1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="headers_modules\xyz.txt" />
   </ItemGroup>
 </Project>

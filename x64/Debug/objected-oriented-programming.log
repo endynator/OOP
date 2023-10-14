@@ -1,2 +1,6 @@
-﻿  module1_hw.cpp
-  objected-oriented-programming.vcxproj -> D:\.all\prj\vs c++\objected-oriented-programming\x64\Debug\objected-oriented-programming.exe
+﻿  Scanning sources for module dependencies...
+  main.cpp
+D:\Projects\OOP\main.cpp(12,2): error C3861: 'module1': identifier not found
+  module1.cpp
+  Student.cpp
+  Generating Code...
