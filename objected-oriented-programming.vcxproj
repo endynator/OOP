@@ -131,15 +131,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="headers_modules\module1_IW.h" />
+    <ClCompile Include="modules\module1_hw2.cpp" />
     <ClCompile Include="modules\module1_hw1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="modules\module1.cpp" />
     <ClCompile Include="modules\module1_IW.cpp" />
+    <ClCompile Include="resourses\PhoneBook.cpp" />
     <ClCompile Include="resourses\Student.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers_modules\module1.h" />
     <ClInclude Include="headers_modules\module1_hw1.h" />
+    <ClInclude Include="headers_modules\module1_hw2.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

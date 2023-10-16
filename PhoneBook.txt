@@ -1,0 +1,24 @@
+fullName : Anna
+homePhone : 30668258526
+workPhone : 
+mobilePhone : 4197515536
+addInfo : yep
+---------------------------------------------------
+fullName : John
+homePhone : 3469468726
+workPhone : 
+mobilePhone : 
+addInfo : 
+---------------------------------------------------
+fullName : Peter
+homePhone : 0218502667
+workPhone : 
+mobilePhone : 
+addInfo : 
+---------------------------------------------------
+fullName : Peter
+homePhone : 19573056
+workPhone : 20962u662
+mobilePhone : 
+addInfo : wihwohganfvtw
+---------------------------------------------------

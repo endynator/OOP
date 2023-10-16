@@ -4,7 +4,8 @@
 #include <string>
 #include <iostream>
 
-class Student {
+class Student 
+{
 private:
 	char* name;
 	std::vector<int> marks;

@@ -3,7 +3,8 @@
 #include <stdexcept>
 #include <iostream>
 
-class Fraction {
+class Fraction 
+{
 private:
 	double numerator;
 	double denominator;

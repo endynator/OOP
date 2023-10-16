@@ -4,7 +4,8 @@
 #include <iostream>
 #include <fstream>
 
-class Student {
+class Student 
+{
 private:
 	std::string fullName;
 	std::string birthDate;
@@ -127,13 +128,13 @@ public:
         }
     }
 
-    double getX() const { return x; }
-    double getY() const { return y; }
-    double getZ() const { return z; }
+    int getX() const { return x; }
+    int getY() const { return y; }
+    int getZ() const { return z; }
 
-    void setX(double xCoord) { x = xCoord; }
-    void setY(double yCoord) { y = yCoord; }
-    void setZ(double zCoord) { z = zCoord; }
+    void setX(int xCoord) { x = xCoord; }
+    void setY(int yCoord) { y = yCoord; }
+    void setZ(int zCoord) { z = zCoord; }
 };
 
 void module1_IW();

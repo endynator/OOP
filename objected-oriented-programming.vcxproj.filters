@@ -33,12 +33,21 @@
     <ClCompile Include="modules\module1_IW.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\module1_hw2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resourses\PhoneBook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers_modules\module1.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="headers_modules\module1_hw1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers_modules\module1_hw2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
