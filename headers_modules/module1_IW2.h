@@ -58,7 +58,7 @@ private:
 	vector<Room> list;
 public:
 	Flat(int s) {
-		list.resize(2);
+		list.resize(s);
 		for (int i = 0; i < s; i++) {
 			cout << endl;
 			char* n = new char[21]; double x, y, z; bool ceil;
