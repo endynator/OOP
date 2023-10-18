@@ -19,6 +19,6 @@ inline void Student::setName(const char* s) {
 	createName(s);
 }
 
-inline std::string Student::getName() {
+inline char* Student::getName() {
 	return name;
 }

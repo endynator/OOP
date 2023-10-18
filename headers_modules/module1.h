@@ -24,8 +24,9 @@ private:
 	}
 public:
 	Student(const char* s) { createName(s); }
+	Student() { createName("Unknown"); }
 	~Student() {
-		delete name;
+		if (name != nullptr) delete[] name;
 	}
 
 	void setMark(int mark);
@@ -36,7 +37,7 @@ public:
 
 	void setName(const char* s);
 
-	std::string getName();
+	char* getName();
 };
 
 void module1();

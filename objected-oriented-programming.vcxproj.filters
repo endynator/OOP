@@ -27,16 +27,19 @@
     <ClCompile Include="modules\module1_hw1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="headers_modules\module1_IW.h">
+    <ClCompile Include="headers_modules\module1_IW1.h">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="modules\module1_IW.cpp">
+    <ClCompile Include="modules\module1_IW1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="modules\module1_hw2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="resourses\PhoneBook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module1_IW2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="headers_modules\module1_hw2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers_modules\module1_IW2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

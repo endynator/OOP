@@ -1,3 +1,5 @@
 ﻿  Scanning sources for module dependencies...
-  PhoneBook.cpp
+  main.cpp
+  module1_IW2.cpp
+  Generating Code...
   objected-oriented-programming.vcxproj -> D:\Projects\OOP\x64\Debug\objected-oriented-programming.exe

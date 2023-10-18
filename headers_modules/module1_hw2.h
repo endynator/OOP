@@ -39,7 +39,7 @@ public:
 	}
 	~Contact()
 	{
-		//if (fullName != nullptr) delete[] fullName;
+		if (fullName != nullptr) delete[] fullName;
 	}
 
 	// Setters
