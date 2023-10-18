@@ -156,11 +156,13 @@ void PhoneBook::pull() {
 
 	std::vector<std::string> lines;
 	std::string line;
-	Contact currentContact;
+	
 	while (std::getline(file, line)) {
 		lines.push_back(line);
 	}
 	if (lines.empty()) return;
+	Contact currentContact;
+	
 	for (auto& line : lines) {
 		size_t pos = line.find(": ");
 		if (pos != std::string::npos) {
