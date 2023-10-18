@@ -137,6 +137,7 @@
     <ClCompile Include="modules\module1.cpp" />
     <ClCompile Include="modules\module1_IW1.cpp" />
     <ClCompile Include="modules\module1_IW2.cpp" />
+    <ClCompile Include="modules\module2.cpp" />
     <ClCompile Include="resourses\PhoneBook.cpp" />
     <ClCompile Include="resourses\Student.cpp" />
   </ItemGroup>
@@ -145,6 +146,7 @@
     <ClInclude Include="headers_modules\module1_hw1.h" />
     <ClInclude Include="headers_modules\module1_hw2.h" />
     <ClInclude Include="headers_modules\module1_IW2.h" />
+    <ClInclude Include="headers_modules\module2.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

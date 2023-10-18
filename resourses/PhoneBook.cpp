@@ -160,7 +160,7 @@ void PhoneBook::pull() {
 	while (std::getline(file, line)) {
 		lines.push_back(line);
 	}
-
+	if (lines.empty()) return;
 	for (auto& line : lines) {
 		size_t pos = line.find(": ");
 		if (pos != std::string::npos) {
@@ -184,7 +184,7 @@ void PhoneBook::pull() {
 		}
 		if (line == SEPARATOR) {
 			list.push_back(currentContact);
-			currentContact = Contact();
+			//currentContact = Contact();
 		}
 	}
 

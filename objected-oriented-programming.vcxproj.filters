@@ -42,6 +42,9 @@
     <ClCompile Include="modules\module1_IW2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\module2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers_modules\module1.h">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="headers_modules\module1_IW2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers_modules\module2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
