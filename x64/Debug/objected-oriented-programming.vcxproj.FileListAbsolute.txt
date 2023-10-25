@@ -1,2 +1,0 @@
-D:\.all\prj\vs c++\objected-oriented-programming\x64\Debug\objected-oriented-programming.exe
-D:\Projects\OOP\x64\Debug\objected-oriented-programming.exe

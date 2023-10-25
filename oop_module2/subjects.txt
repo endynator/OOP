@@ -1,0 +1,5 @@
+Math
+Physics
+Chemistry
+Informatics
+English

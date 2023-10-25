@@ -1,0 +1,15 @@
+Alice Math 8
+Alice Physics 9
+Alice Chemistry 6
+Alice Informatics 7
+Alice English 10
+Bob Math 7
+Bob Physics 8
+Bob Chemistry 9
+Bob Informatics 8
+Bob English 6
+Charlie Math 9
+Charlie Physics 10
+Charlie Chemistry 11
+Charlie Informatics 10
+Charlie English 11
